@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './robinhood.svg'
 import SearchIcon from '@material-ui/icons/Search';
+import './Header.css'
 
 function Header() {
   return (
@@ -13,10 +14,17 @@ function Header() {
         <div className="header_search">
             <div className="header_searchContainer">
                 <SearchIcon style={{ color: "white" }}/>
-                <input type="text" placeholder="Search" />
+                <input className="search_input" type="text" placeholder="Search" />
             </div>
         </div>
         {/* menu-items */}
+        <div className="header_menuItems">
+            <a href="#">Free Stocks</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Cash</a>
+            <a href="#">Messages</a>
+            <a href="#">Account</a>
+        </div>
     </div>
   )
 }
