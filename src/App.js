@@ -1,5 +1,7 @@
 import './App.css';
 import Header from './Header'
+import Newsfeed from './Newsfeed'
+import Stats from './Stats'
 
 function App() {
   return (
@@ -8,10 +10,13 @@ function App() {
       <div className="app_header">
         <Header />  
       </div>
-      
       {/* Body */}
       <div className="app_body">
-      
+        <div className="app_container">
+          <Newsfeed />
+          {/* stats */}
+          <Stats />
+        </div>
       </div>
     </div>
   );
