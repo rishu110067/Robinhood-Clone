@@ -8,7 +8,7 @@ function StatsRow(props) {
         <div className="row">
             <div className="row_intro">
                 <h1>{props.name}</h1>
-                <p>{props.volume && (props.volume + "shares")}</p>
+                <p>{props.volume && (props.volume + " shares")}</p>
             </div>
             <div className="row_chart">
                 <img src={StockSVG} height={16} />
