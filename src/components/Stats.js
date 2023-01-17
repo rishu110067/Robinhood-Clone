@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import './Stats.css'
+import '../styles/Stats.css'
 import StatsRow from './StatsRow'
-import { db } from "./firebase"
+import { db } from "../database/firebase"
 
 const TOKEN = process.env.REACT_APP_TOKEN;
 const BASE_URL = "https://finnhub.io/api/v1/quote";

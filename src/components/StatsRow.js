@@ -1,7 +1,7 @@
 import React from 'react'
-import './StatsRow.css'
-import StockSVG from './stock.svg';
-import { db } from "./firebase"
+import '../styles/StatsRow.css'
+import StockSVG from '../icons/stock.svg';
+import { db } from "../database/firebase"
 
 function StatsRow(props) {
     const percentage = ((props.price - props.openPrice)/props.openPrice) * 100;

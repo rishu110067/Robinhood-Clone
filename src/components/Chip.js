@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Chip.css"
+import "../styles/Chip.css"
 
 function Chip(props) {
   return (

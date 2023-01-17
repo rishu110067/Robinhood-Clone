@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './Newsfeed.css'
+import '../styles/Newsfeed.css'
 import LineGraph from './LineGraph'
 import TimeLine from './TimeLine'
 import Chip from './Chip'

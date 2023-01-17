@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from './robinhood.svg'
+import Logo from '../icons/robinhood.svg'
 import SearchIcon from '@material-ui/icons/Search';
-import './Header.css'
+import '../styles/Header.css'
 
 function Header() {
   return (
